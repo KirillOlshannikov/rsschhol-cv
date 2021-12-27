@@ -1,1 +1,1 @@
-# rsschhol-cv
+ttps://KirillOlshannikov.github.io/rsschool-cv/cv
