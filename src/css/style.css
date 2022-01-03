@@ -4,7 +4,6 @@ body {
 
 .wrapper {
   overflow: hidden;
-  min-height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -37,33 +36,21 @@ body {
 .inst {
   font-size: 26px;
   letter-spacing: 0.3px;
-  background: url(/img/inst3.png) left no-repeat;
+  background: url(/img/inst.png) left no-repeat;
   padding: 0px 0px 0px 30px;
 }
 
 .dis {
   font-size: 26px;
   letter-spacing: 0.3px;
-  background: url(/img/disc2.png) left no-repeat;
+  background: url(/img/disc.png) left no-repeat;
   padding: 0px 0px 0px 33px;
 }
 
-.about{
-
-}
-
-.container{
-
-}
-
-.about__row{
-display: flex;
-justify-content: space-between;
-margin: 0px 0px 20px 0px;
-}
-
-.photo{
-
+.about__row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 20px 0px;
 }
 
 .title_one {
@@ -73,60 +60,63 @@ margin: 0px 0px 20px 0px;
 }
 
 .work {
-  margin: 0px 0px 20px 0px;
+  margin: 20px 0px 0px 0px;
 }
 
-.about{
-font-size: 16px ;
-padding: 20px 0px 0px 0px;
-letter-spacing: 0.3px;
+.about {
+  font-size: 16px;
+  padding: 20px 0px 0px 0px;
+  letter-spacing: 0.3px;
 }
 
 .columns {
-
+  background: #b360d137;
 }
 
 .columns__row {
-display: flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .columns__column {
-flex: 0 1 50%;
-}
-
-.columns__item {
-
-}
-
-.item {
-
+  flex: 0 1 50%;
 }
 
 .item__row {
-display: flex;
-}
-
-.item__skill {
-
+  display: flex;
 }
 
 .skill__p {
-font-size: 20px;
-letter-spacing: 0.3px;
-padding: 0px 0px 15px 20px;
+  font-size: 20px;
+  letter-spacing: 0.3px;
+  padding: 10px 0px 15px 20px;
 }
 
 .item__ul {
-font-size: 16px;
-letter-spacing: 0.3px;
-padding: 0px 0px 0px 0px;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  padding: 0px 0px 10px 0px;
 }
 
 .item__li {
+  background: url(/img/check.svg) left no-repeat;
+  padding: 2px 0px 0px 25px;
+}
 
-background: url(/img/check.png)left no-repeat;
-padding: 2px 0px 0px 25px;
+.code {
+  display: flex;
+}
+
+.example__code {
+  font-size: 20px;
+  margin: 20px 0px 25px 0px;
+  letter-spacing: 0.3px;
+}
+
+.code__code{
+  font-size: 16px;
+  margin: 20px 0px ;
+  letter-spacing: 0.3px;
 }
 
 .footer {
@@ -135,13 +125,26 @@ padding: 2px 0px 0px 25px;
 
 .footer__row {
   display: flex;
-  height: 56px;
-  justify-content: center;
+  height: 70px;
+  justify-content: space-between;
   align-items: center;
 }
 
 .footer__git {
+  font-size: 25px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.footer__rsschool {
   font-size: 20px;
   letter-spacing: 0.3px;
   text-transform: uppercase;
+  padding: 25px 0px 25px 110px;
+  background: url(/img/rs_school_js.png)left no-repeat;
+}
+
+.est {
+  font-size: 20px;
+  letter-spacing: 0.3px;
 }
